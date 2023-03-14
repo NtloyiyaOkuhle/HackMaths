@@ -41,5 +41,34 @@ here are some examples of equations you can solve with the program, along with h
 
     Solve the heat equation u_xx + u_yy = 0:
         Enter: "heat equation"
+        
+Here are more examples of math problems you can solve:
+
+    Solve an equation:
+    To solve an equation, enter it in the form "left-hand side = right-hand side". For example, to solve "2x + 3 = 7", enter "2*x + 3 = 7".
+
+    Solve a system of equations:
+    To solve a system of equations, enter the equations separated by commas and use the syntax "system" to indicate that it is a system of equations. For example, to solve the system of equations "x + y = 5" and "2x - y = 3", enter "x + y = 5, 2*x - y = 3 system".
+
+    Solve a polynomial equation:
+    To solve a polynomial equation, enter it in the form "polynomial(expression)". For example, to solve "x^2 - 4x + 3 = 0", enter "polynomial(x**2 - 4*x + 3)".
+
+    Find the derivative of a function at a point:
+    To find the derivative of a function at a point, enter the function, the variable to differentiate with respect to, and the point to evaluate at, separated by commas. For example, to find the derivative of "x^3 + 2x^2 - 3x" at x=1, enter "x3 + 2*x2 - 3*x, x, 1 derivative".
+
+    Evaluate a definite integral:
+    To evaluate a definite integral, enter the integrand, the variable of integration, and the limits of integration, separated by commas. For example, to evaluate the integral of "x^2" from x=0 to x=1, enter "x**2, x, 0, 1 integral".
+
+    Find the Fourier series of a function:
+    To find the Fourier series of a function, enter the function, the variable of integration, and the limits of integration, separated by commas. For example, to find the Fourier series of "sin(x)" over the interval [-pi, pi], enter "sin(x), x, -pi, pi fourier series".
+
+    Solve a matrix operation:
+    To solve a matrix operation, enter the matrix operation using SymPy's Matrix syntax. For example, to solve the matrix operation "[[1, 2], [3, 4]] * [[5], [6]]", enter "Matrix([[1, 2], [3, 4]]) * Matrix([[5], [6]])".
+
+    Plot a function:
+    To plot a function, enter "plot" followed by the function to plot. For example, to plot "x^2 - 3x + 2", enter "plot x**2 - 3*x + 2".
+
+    Evaluate a function numerically:
+    To evaluate a function numerically, enter "numeric" followed by the function to evaluate. For example, to evaluate "x^2" numerically over the interval [0, 1] using 10 steps, enter "numeric x**2" and follow the prompts to enter the start and end points and the number of steps.
 
 These are just a few examples, and the program is capable of solving many other types of problems as well.
